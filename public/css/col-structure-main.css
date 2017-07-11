@@ -15,51 +15,37 @@ html {
   padding: 0;
 }
 
-p {
-  font-size: 1.8rem;
-  margin: 0px;
-}
-
-.text-container {
-  max-width: 450px;
-  margin: 0 auto;
-}
-
 .headline {
   text-align: center;
   color: #FFF;
   margin-bottom: 40px;
 }
 
-.title {
+h1 {
   font-size: 6rem;
   font-weight: bold;
-  /*margin-top: 40px;*/
+  margin-top: 40px;
+}
+
+p {
+  font-size: 1.8rem;
 }
 
 #modal {
   background: rgba(38,38,38,0.90);
   box-shadow: 0 9px 10px 3px rgba(0,0,0,0.50);
-  /*min-height: 450px;*/
-  text-align: center;
-  padding: 50px;
+  min-height: 450px;
 }
 
 .vertically-centered {
   /* VERTICAL CENTER MARKUP */
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-#email-form {
-  display: inline-block;
+  transform: translateY(-50%);
 }
 
 .btn-primary {
-  margin-left: 20px;
+  margin-left: -20px;
   background-image: none;
   border: none;
   background-color: #DE541E;
@@ -75,14 +61,6 @@ p {
   /*clear: both;*/
 }
 
-.inline {
-  float: left;
-}
-
-.input  {
-  min-width: 400px;
-}
-
 .form-control, .btn {
   border-radius: 100px;
 }
@@ -93,14 +71,14 @@ p {
 }
 
 .social-row {
-  margin-top: 30px;
+  margin-top: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .social-icon {
-  margin: 0 25px;
+  margin: 0 25px 50px;
   /*height: 28px;
   width: auto;*/
   display: block;

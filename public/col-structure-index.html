@@ -17,30 +17,35 @@
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="css/main-02.css">
+    <link rel="stylesheet" href="css/main.css">
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 
 
   </head>
-  <body>
-      <span class="vertically-centered"id="modal">
-        <div class="text-container">
-          <p class="title headline">ransack leather</h1>
+  <body class="container-fluid">
+    <div class="col-md-6 col-md-offset-3 vertically-centered clearfix" id="modal">
+      <span class="vertically-centered">
+        <div class="row col-md-10 col-sm-10 col-lg-10 col-md-offset-1">
+          <h1 class="headline">ransack leather</h1>
           <p class="headline">One of a kind leather accessories created out of pilaged, plundered, and ransacked materials.</p>
         </div>
+
         <!-- Form Group  -->
         <form id="email-form">
-          <div class="form">
-            <div class="input inline ">
+          <div class="row col-md-10 col-md-offset-1 form">
+            <div class="col-md-9">
               <!-- <label for="enail-input">Enter your email</label> -->
               <input class="form-control input-lg" type="email" placeholder="Email" id="email" name="email">
               <h6 class="privacy-sentence">Don't worry, we won't share your information with anyone</h6>
             </div>
-            <input type="submit" class="btn btn-primary btn-lg inline" value="Notify Me!">
+
+            <div class="col-md-3">
+              <input type="submit" class="btn btn-primary btn-lg" value="Notify Me!">
+            </div>
           </div>
         </form>
 
-        <div class="social-row">
+        <div class="row col-md-4 col-md-offset-4 social-row">
           <a href="https://www.etsy.com/shop/ransackleather" rel="nofollow" target="_blank" >
             <!-- <img src="img/logo-icon-etsy.svg"> -->
             <svg class="social-icon" width="63.6px" height="30px" id="etsy">
@@ -68,6 +73,9 @@
         </div>
 
       </span>
+      <div class="clearfix">
+      </div>
+    </div>
 
     <script>
       document.addEventListener('DOMContentLoaded', function() {
